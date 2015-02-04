@@ -11,12 +11,12 @@
 #div3 {
     width: 1280px;
     height: 700px;
-    background-color: lightblue;
+    background-color: deepskyblue; //cannot for the life of me find the matching shade of blue
 }
 #div4 {
     width: 1280px;
     height: 590px;
-    background-color: whitesmoke;
+    background-color: white;
 }
 #div5 {
     width: 1280px;
@@ -206,4 +206,80 @@ color: white;
     position: absolute;
     top:800px;
     left: 625px;
+}
+
+#sec3{
+    position: absolute;
+    top: 1500px;
+    left: 550px;
+    font-size: 160%;
+    color: white;
+    font-weight: bolder;
+}
+#sec3p2{
+    position: absolute;
+    top: 1560px;
+    left: 300px;
+    font-size: 90%;
+    color: white;
+}
+
+#accessories{
+    left: 260px;
+    top: 1675px;
+    position: absolute;
+}
+#sec3p3a{
+    position: absolute;
+    top: 1920px;
+    left: 260px;
+    font-size: 100%;
+    font-weight: bold;
+    color: white;
+}
+#sec3p3b{
+    position: absolute;
+    top: 1945px;
+    left: 262px;
+    font-size: 90%;
+    color: white;
+}
+
+#sec3p4a{
+    position: absolute;
+    top: 1920px;
+    left: 580px;
+    font-size: 100%;
+    font-weight: bold;
+    color: white;
+}
+#sec3p4b{
+    position: absolute;
+    top: 1945px;
+    left: 610px;
+    font-size: 90%;
+    color: white;
+}
+
+#sec3p5a{
+    position: absolute;
+    top: 1920px;
+    left: 920px;
+    font-size: 100%;
+    font-weight: bold;
+    color: white;
+}
+#sec3p5b{
+    position: absolute;
+    top: 1945px;
+    left: 880px;
+    font-size: 90%;
+    color: white;
+}
+
+#iphone{
+    position: absolute;
+    top:2093px;
+    left: 100px;
+    height: 590px;
 }
