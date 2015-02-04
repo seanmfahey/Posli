@@ -10,6 +10,7 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="myCss.css">
+        <script src="myJS.js"></script>
     </head>
     <body>
         
@@ -20,14 +21,14 @@ and open the template in the editor.
             <p id = "topHeader">Posli, advanced team messaging with </p><p id = "topHeader2">to-do functionality.</p>
             
             <form id = "email">
-                                <input class = "search square" type="text" placeholder="Input Email for Beta" required>
-                                <input id = "req" type="button" value="Request">
+                                <input id = "myinput" class = "search square" type="text" placeholder="Input Email for Beta" required>
+                                <input id = "req" type="button" value="Request" onclick="email()">
             </form>
             
             <div id = "tabs">
-                <div id = "tab1" ><p id = "about">About</p></div>
-                <div id = "tab2" ><p id = "feat">Features</p></div>
-                <div id = "tab3" ><p id = "sign">Sign Up</p></div>
+                <div id = "tab1" onclick = "about()"><p id = "about">About</p></div>
+                <div id = "tab2" onclick = "feat()"><p id = "feat">Features</p></div>
+                <div id = "tab3" onclick = "signup()"><p id = "sign">Sign Up</p></div>
             </div>
         </div>
         
@@ -39,7 +40,7 @@ and open the template in the editor.
                 and task-list management and improves your everyday<br><br>
             workflow with simple but efficient user interface.</p>
             
-             <button id = "line" type="button">Get in line</button> 
+             <button id = "line" type="button" onclick = "inLine()">Get in line</button> 
             
               <img src="sec2pic.jpg" id = "laptop">
              
@@ -102,8 +103,8 @@ and open the template in the editor.
             <p id ='sec6'>Sign up for beta</p>
             
                 <form id = "email2">
-                    <input class = "search square" type="text" placeholder="Input Email for Beta" required>
-                    <input id = "req" type="button" value="Request">
+                    <input id = "secondForm" class = "search square" type="text" placeholder="Input Email for Beta" required>
+                    <input id = "req" type="button" value="Request" onclick = "email2()">
                 </form>
             
             
@@ -112,9 +113,8 @@ and open the template in the editor.
             
             <p id='share'>Share on</p>
             
-            <img src="fb.jpg" id = "fb">
-            <img src="twitter.jpg" id = "tweet">
-            
+            <img src="fb.jpg" id = "fb" onclick="fbMe()">
+            <img src="twitter.jpg" id = "tweet" onclick="tweetMe()">
         </div>
     </body>
 </html>
