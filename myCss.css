@@ -51,7 +51,7 @@
     font-size: 125%;
     position: absolute;
     alignment-adjust: central;
-    top: 335px;
+    top: 330px;
     left: 530px;
     right: 850px;
 }
@@ -391,4 +391,18 @@ color: white;
     position: absolute;
     left: 680px;
     top:3710px;
+}
+
+#tweet:hover{
+    position: absolute;
+    left: 680px;
+    top:3710px;
+    opacity: 0.2;
+}
+
+#fb:hover{
+    position: absolute;
+    left: 620px;
+    top:3710px;
+    opacity: 0.2;
 }
