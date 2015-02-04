@@ -1,7 +1,7 @@
 #div1 {
     width: 1280px;
     height: 650px;
-    background-color: grey;
+    background-image: url("Headerimg.jpg"); //Place header image here
 }
 #div2 {
     width: 1280px;
@@ -30,9 +30,143 @@
 }
 #tabs {
     width: 1280px;
-    height: 70px;
+    height: 68px;
     background-color: black;
-    opacity: 0.2;
+    opacity: 0.6;
     position: absolute;
     top: 590px;
+}
+#topHeader{
+    font-weight:bolder;
+    color: white;
+    font-size: 125%;
+    position: absolute;
+    top: 300px;
+    left: 420px;
+    right: 850px;
+}
+#topHeader2{
+    font-weight:bolder;
+    color: white;
+    font-size: 125%;
+    position: absolute;
+    alignment-adjust: central;
+    top: 335px;
+    left: 530px;
+    right: 850px;
+}
+#logo{
+    position: absolute;
+    alignment-adjust: central;
+    top: 150px;
+    left: 550px;
+}
+
+#email{
+    width: 425px;
+    top: 400px;
+    position: absolute;
+    left: 425px;
+}
+
+form{
+	width:500px;
+}
+.search { 
+	width:325px;
+        height: 35px;
+}
+
+input[type=text]{
+	color:#bcbcbc;
+}
+
+input[type=button], input[type=button]:hover {
+	position:relative; 
+	left:-4px;
+	background: #e4f1f9; /* Old browsers */
+	background: -moz-linear-gradient(top, lightblue 0%, #d5e7f3 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e4f1f9), color-stop(100%,#d5e7f3)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, lightblue 0%,#d5e7f3 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, lightblue 0%,#d5e7f3 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, lightblue 0%,#d5e7f3 100%); /* IE10+ */
+	background: linear-gradient(top, lightblue 0%,#d5e7f3 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4f1f9', endColorstr='#d5e7f3',GradientType=0 ); /* IE6-9 */
+	color:white;
+	cursor: pointer;
+        height: 43px;
+}
+
+
+#tab1{
+    width: 100px;
+    left: 450px;
+    right: 450px;
+    position: absolute;
+    //background-color: black;
+    height: 70px;
+}
+#tab2{
+    width: 100px;
+    left: 560px;
+    position: absolute;
+    //background-color: black;
+    height: 70px;
+}
+#tab3{
+    width: 100px;
+    left: 670px;
+    position: absolute;
+    //background-color: black;
+    height: 70px;
+}
+
+#about{
+    color: white !important;
+    font: bolder !important;
+    opacity: 1.0 !important;
+    left: 30px;
+    position: absolute;
+}
+#feat{
+    color: white !important;
+    font: bolder !important;
+    opacity: 1.0 !important;
+    left: 15px;
+    position: absolute;
+}
+#sign{
+    color: white !important;
+    font: bolder !important;
+    opacity: 1.0 !important;
+    left: 15px;
+    position: absolute;
+}
+#tab1:hover{
+    width: 100px;
+    left: 450px;
+    right: 450px;
+    position: absolute;
+    background-color: black;
+    height: 65px;
+    border-bottom: 5px solid #aaa;
+    border-bottom-color: lightskyblue;
+}
+#tab2:hover{
+    width: 100px;
+    left: 560px;
+    position: absolute;
+    background-color: black;
+    height: 65px;
+    border-bottom: 5px solid #aaa;
+    border-bottom-color: lightskyblue;
+}
+#tab3:hover{
+    width: 100px;
+    left: 670px;
+    position: absolute;
+    background-color: black;
+    height: 65px;
+    border-bottom: 5px solid #aaa;
+    border-bottom-color: lightskyblue;
 }
