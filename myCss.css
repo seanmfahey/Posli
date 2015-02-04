@@ -1,408 +1,378 @@
 #div1 {
-    width: 1280px;
-    height: 650px;
-    background-image: url("Headerimg.jpg"); //Place header image here
+width: 1280px;
+height: 650px;
+background-image: url("Headerimg.jpg"); //Place header image here
 }
 #div2 {
-    width: 1280px;
-    height: 735px;
-    background-color: white;
+width: 1280px;
+height: 735px;
+background-color: white;
 }
 #div3 {
-    width: 1280px;
-    height: 700px;
-    background-color: deepskyblue; //cannot for the life of me find the matching shade of blue
+width: 1280px;
+height: 700px;
+background-color: deepskyblue; //cannot for the life of me find the matching shade of blue
 }
 #div4 {
-    width: 1280px;
-    height: 590px;
-    background-color: white;
+width: 1280px;
+height: 590px;
+background-color: white;
 }
 #div5 {
-    width: 1280px;
-    height: 598px;
-    background-color: white;
+width: 1280px;
+height: 598px;
+background-color: white;
 }
 #div6 {
-    width: 1280px;
-    height: 539px;
-    background-color: midnightblue;
+width: 1280px;
+height: 539px;
+background-color: midnightblue;
 }
 #tabs {
-    width: 1280px;
-    height: 68px;
-    background-color: black;
-    opacity: 0.6;
-    position: absolute;
-    top: 590px;
+width: 1280px;
+height: 68px;
+background-color: black;
+opacity: 0.6;
+position: absolute;
+top: 590px;
 }
 #topHeader{
-    font-weight:bolder;
-    color: white;
-    font-size: 125%;
-    position: absolute;
-    top: 300px;
-    left: 420px;
-    right: 850px;
+font-weight:bolder;
+color: white;
+font-size: 125%;
+position: absolute;
+top: 300px;
+left: 420px;
+right: 850px;
 }
 #topHeader2{
-    font-weight:bolder;
-    color: white;
-    font-size: 125%;
-    position: absolute;
-    alignment-adjust: central;
-    top: 330px;
-    left: 530px;
-    right: 850px;
+font-weight:bolder;
+color: white;
+font-size: 125%;
+position: absolute;
+alignment-adjust: central;
+top: 335px;
+left: 530px;
+right: 850px;
 }
 #logo{
-    position: absolute;
-    alignment-adjust: central;
-    top: 150px;
-    left: 550px;
+position: absolute;
+alignment-adjust: central;
+top: 150px;
+left: 550px;
 }
-
 #email{
-    width: 425px;
-    top: 400px;
-    position: absolute;
-    left: 425px;
+width: 425px;
+top: 400px;
+position: absolute;
+left: 425px;
 }
-
 form{
-	width:500px;
+width:500px;
 }
-.search { 
-	width:325px;
-        height: 35px;
+.search {
+width:325px;
+height: 35px;
 }
-
 input[type=text]{
-	color:#bcbcbc;
+color:#bcbcbc;
 }
-
 input[type=button], input[type=button]:hover {
-	position:relative; 
-	left:-4px;
-	background: #e4f1f9;
-	background: -moz-linear-gradient(top, lightskyblue 0%, #d5e7f3 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e4f1f9), color-stop(100%,#d5e7f3)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top, lightskyblue 0%,#d5e7f3 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top, lightskyblue 0%,#d5e7f3 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top, lightskyblue 0%,#d5e7f3 100%); /* IE10+ */
-	background: linear-gradient(top, lightblue 0%,#d5e7f3 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4f1f9', endColorstr='#d5e7f3',GradientType=0 ); /* IE6-9 */
-	color:white;
-	cursor: pointer;
-        height: 43px;
-            border-radius: 5px; 
--moz-border-radius: 5px; 
--webkit-border-radius: 5px; 
+position:relative;
+left:-4px;
+background: #e4f1f9;
+background: -moz-linear-gradient(top, lightskyblue 0%, #d5e7f3 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e4f1f9), color-stop(100%,#d5e7f3)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, lightskyblue 0%,#d5e7f3 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, lightskyblue 0%,#d5e7f3 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, lightskyblue 0%,#d5e7f3 100%); /* IE10+ */
+background: linear-gradient(top, lightblue 0%,#d5e7f3 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4f1f9', endColorstr='#d5e7f3',GradientType=0 ); /* IE6-9 */
+color:white;
+cursor: pointer;
+height: 43px;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
 border: 2px solid lightblue;
 }
-
-
 #tab1{
-    width: 100px;
-    left: 450px;
-    right: 450px;
-    position: absolute;
-    //background-color: black;
-    height: 70px;
+width: 100px;
+left: 450px;
+right: 450px;
+position: absolute;
+//background-color: black;
+height: 70px;
 }
 #tab2{
-    width: 100px;
-    left: 560px;
-    position: absolute;
-    //background-color: black;
-    height: 70px;
+width: 100px;
+left: 560px;
+position: absolute;
+//background-color: black;
+height: 70px;
 }
 #tab3{
-    width: 100px;
-    left: 670px;
-    position: absolute;
-    //background-color: black;
-    height: 70px;
+width: 100px;
+left: 670px;
+position: absolute;
+//background-color: black;
+height: 70px;
 }
-
 #about{
-    color: white !important;
-    font: bolder !important;
-    opacity: 1.0 !important;
-    left: 30px;
-    position: absolute;
+color: white !important;
+font: bolder !important;
+opacity: 1.0 !important;
+left: 30px;
+position: absolute;
 }
 #feat{
-    color: white !important;
-    font: bolder !important;
-    opacity: 1.0 !important;
-    left: 15px;
-    position: absolute;
+color: white !important;
+font: bolder !important;
+opacity: 1.0 !important;
+left: 15px;
+position: absolute;
 }
 #sign{
-    color: white !important;
-    font: bolder !important;
-    opacity: 1.0 !important;
-    left: 15px;
-    position: absolute;
+color: white !important;
+font: bolder !important;
+opacity: 1.0 !important;
+left: 15px;
+position: absolute;
 }
 #tab1:hover{
-    width: 100px;
-    left: 450px;
-    right: 450px;
-    position: absolute;
-    background-color: black;
-    height: 65px;
-    border-bottom: 5px solid #aaa;
-    border-bottom-color: lightskyblue;
+width: 100px;
+left: 450px;
+right: 450px;
+position: absolute;
+background-color: black;
+height: 65px;
+border-bottom: 5px solid #aaa;
+border-bottom-color: lightskyblue;
 }
 #tab2:hover{
-    width: 100px;
-    left: 560px;
-    position: absolute;
-    background-color: black;
-    height: 65px;
-    border-bottom: 5px solid #aaa;
-    border-bottom-color: lightskyblue;
+width: 100px;
+left: 560px;
+position: absolute;
+background-color: black;
+height: 65px;
+border-bottom: 5px solid #aaa;
+border-bottom-color: lightskyblue;
 }
 #tab3:hover{
-    width: 100px;
-    left: 670px;
-    position: absolute;
-    background-color: black;
-    height: 65px;
-    border-bottom: 5px solid #aaa;
-    border-bottom-color: lightskyblue;
+width: 100px;
+left: 670px;
+position: absolute;
+background-color: black;
+height: 65px;
+border-bottom: 5px solid #aaa;
+border-bottom-color: lightskyblue;
 }
-
 #sec2{
-    top: 900px;
-    left:150px;
-    position: absolute;
-    font-size: 160%;
+top: 900px;
+left:150px;
+position: absolute;
+font-size: 160%;
 }
-
 #sec2p2{
-    top: 960px;
-    left: 150px;
-    position: absolute;
-    font-size: 90%;
+top: 960px;
+left: 150px;
+position: absolute;
+font-size: 90%;
 }
 #line{
-    top:1100px;
-    left:150px;
-    position: absolute;
-    background-color: lightskyblue;
-    height: 50px;
-    width: 150px;
-    border-radius: 5px; 
--moz-border-radius: 5px; 
--webkit-border-radius: 5px; 
+top:1100px;
+left:150px;
+position: absolute;
+background-color: lightskyblue;
+height: 50px;
+width: 150px;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
 border: 2px solid lightskyblue;
 color: white;
 }
-
 #laptop{
-    position: absolute;
-    top:800px;
-    left: 625px;
+position: absolute;
+top:800px;
+left: 625px;
 }
-
 #sec3{
-    position: absolute;
-    top: 1500px;
-    left: 550px;
-    font-size: 160%;
-    color: white;
-    font-weight: bolder;
+position: absolute;
+top: 1500px;
+left: 550px;
+font-size: 160%;
+color: white;
+font-weight: bolder;
 }
 #sec3p2{
-    position: absolute;
-    top: 1560px;
-    left: 300px;
-    font-size: 90%;
-    color: white;
+position: absolute;
+top: 1560px;
+left: 300px;
+font-size: 90%;
+color: white;
 }
-
 #accessories{
-    left: 260px;
-    top: 1675px;
-    position: absolute;
+left: 260px;
+top: 1675px;
+position: absolute;
 }
 #sec3p3a{
-    position: absolute;
-    top: 1920px;
-    left: 260px;
-    font-size: 100%;
-    font-weight: bold;
-    color: white;
+position: absolute;
+top: 1920px;
+left: 260px;
+font-size: 100%;
+font-weight: bold;
+color: white;
 }
 #sec3p3b{
-    position: absolute;
-    top: 1945px;
-    left: 262px;
-    font-size: 90%;
-    color: white;
+position: absolute;
+top: 1945px;
+left: 262px;
+font-size: 90%;
+color: white;
 }
-
 #sec3p4a{
-    position: absolute;
-    top: 1920px;
-    left: 580px;
-    font-size: 100%;
-    font-weight: bold;
-    color: white;
+position: absolute;
+top: 1920px;
+left: 580px;
+font-size: 100%;
+font-weight: bold;
+color: white;
 }
 #sec3p4b{
-    position: absolute;
-    top: 1945px;
-    left: 610px;
-    font-size: 90%;
-    color: white;
+position: absolute;
+top: 1945px;
+left: 610px;
+font-size: 90%;
+color: white;
 }
-
 #sec3p5a{
-    position: absolute;
-    top: 1920px;
-    left: 920px;
-    font-size: 100%;
-    font-weight: bold;
-    color: white;
+position: absolute;
+top: 1920px;
+left: 920px;
+font-size: 100%;
+font-weight: bold;
+color: white;
 }
 #sec3p5b{
-    position: absolute;
-    top: 1945px;
-    left: 880px;
-    font-size: 90%;
-    color: white;
+position: absolute;
+top: 1945px;
+left: 880px;
+font-size: 90%;
+color: white;
 }
-
 #iphone{
-    position: absolute;
-    top:2093px;
-    left: 100px;
-    height: 590px;
+position: absolute;
+top:2093px;
+left: 100px;
+height: 590px;
 }
-
 #sec4{
-    left: 620px;
-    top: 2330px;
-    position: absolute;
-    font-size: 160%;
-    font-weight: bolder;
+left: 620px;
+top: 2330px;
+position: absolute;
+font-size: 160%;
+font-weight: bolder;
 }
-
 #sec4p2{
-    left: 620px;
-    top: 2390px;
-    position: absolute;
-    font-size: 90%;
+left: 620px;
+top: 2390px;
+position: absolute;
+font-size: 90%;
 }
-
 #icons{
-    top: 2850px;
-    left: 265px;
-    position: absolute;
+top: 2850px;
+left: 265px;
+position: absolute;
 }
-
 #sec5a{
-    position: absolute;
-    top: 2990px;
-    left: 260px;
-    font-size: 110%;
+position: absolute;
+top: 2990px;
+left: 260px;
+font-size: 110%;
 }
-
 #sec5p2a{
-    position: absolute;
-    top: 3040px;
-    left: 200px;
-    font-size: 80%;
+position: absolute;
+top: 3040px;
+left: 200px;
+font-size: 80%;
 }
-
 #sec5b{
-    position: absolute;
-    top: 2990px;
-    left: 560px;
-    font-size: 110%;
+position: absolute;
+top: 2990px;
+left: 560px;
+font-size: 110%;
 }
-
 #sec5p2b{
-    position: absolute;
-    top: 3040px;
-    left: 520px;
-    font-size: 80%;
+position: absolute;
+top: 3040px;
+left: 520px;
+font-size: 80%;
 }
-
 #sec5c{
-    position: absolute;
-    top: 2990px;
-    left: 900px;
-    font-size: 110%;
+position: absolute;
+top: 2990px;
+left: 900px;
+font-size: 110%;
 }
-
 #sec5p2c{
-    position: absolute;
-    top: 3040px;
-    left: 840px;
-    font-size: 80%;
+position: absolute;
+top: 3040px;
+left: 840px;
+font-size: 80%;
 }
-
 #sec6{
-    position: absolute;
-    left: 525px;
-    top: 3405px;
-    color: white;
-    font-size: 140%;
-    font-weight: bold;
+position: absolute;
+left: 525px;
+top: 3405px;
+color: white;
+font-size: 140%;
+font-weight: bold;
 }
-
 #sec6p2{
-    position: absolute;
-    left:330px;
-    top: 3565px;
-    color:white;
-    font-size: 90%;
-    font-weight: bold;
+position: absolute;
+left:330px;
+top: 3565px;
+color:white;
+font-size: 90%;
+font-weight: bold;
 }
-
 #email2{
-    width: 425px;
-    top: 3475px;
-    position: absolute;
-    left: 405px;
+width: 425px;
+top: 3475px;
+position: absolute;
+left: 405px;
 }
-
 #share{
-    color: white;
-    font-size: 90%;
-    font-weight: bold;
-    position: absolute;
-    left: 540px;
-    top:3710px;
+color: white;
+font-size: 90%;
+font-weight: bold;
+position: absolute;
+left: 540px;
+top:3710px;
 }
-
 #fb{
-    position: absolute;
-    left: 620px;
-    top:3710px;
+position: absolute;
+left: 620px;
+top:3710px;
 }
-
 #tweet{
-    position: absolute;
-    left: 680px;
-    top:3710px;
+position: absolute;
+left: 680px;
+top:3710px;
 }
 
 #tweet:hover{
-    position: absolute;
-    left: 680px;
-    top:3710px;
-    opacity: 0.2;
+ position: absolute;
+ left: 680px;
+ top:3710px;
+ opacity: 0.2;
 }
 
 #fb:hover{
-    position: absolute;
-    left: 620px;
-    top:3710px;
-    opacity: 0.2;
+ position: absolute;
+left: 620px;
+ top:3710px;
+ opacity: 0.2;
 }
