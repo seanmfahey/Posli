@@ -26,7 +26,7 @@
 #div6 {
     width: 1280px;
     height: 539px;
-    background-color: navy;
+    background-color: midnightblue;
 }
 #tabs {
     width: 1280px;
@@ -282,4 +282,113 @@ color: white;
     top:2093px;
     left: 100px;
     height: 590px;
+}
+
+#sec4{
+    left: 620px;
+    top: 2330px;
+    position: absolute;
+    font-size: 160%;
+    font-weight: bolder;
+}
+
+#sec4p2{
+    left: 620px;
+    top: 2390px;
+    position: absolute;
+    font-size: 90%;
+}
+
+#icons{
+    top: 2850px;
+    left: 265px;
+    position: absolute;
+}
+
+#sec5a{
+    position: absolute;
+    top: 2990px;
+    left: 260px;
+    font-size: 110%;
+}
+
+#sec5p2a{
+    position: absolute;
+    top: 3040px;
+    left: 200px;
+    font-size: 80%;
+}
+
+#sec5b{
+    position: absolute;
+    top: 2990px;
+    left: 560px;
+    font-size: 110%;
+}
+
+#sec5p2b{
+    position: absolute;
+    top: 3040px;
+    left: 520px;
+    font-size: 80%;
+}
+
+#sec5c{
+    position: absolute;
+    top: 2990px;
+    left: 900px;
+    font-size: 110%;
+}
+
+#sec5p2c{
+    position: absolute;
+    top: 3040px;
+    left: 840px;
+    font-size: 80%;
+}
+
+#sec6{
+    position: absolute;
+    left: 525px;
+    top: 3405px;
+    color: white;
+    font-size: 140%;
+    font-weight: bold;
+}
+
+#sec6p2{
+    position: absolute;
+    left:330px;
+    top: 3565px;
+    color:white;
+    font-size: 90%;
+    font-weight: bold;
+}
+
+#email2{
+    width: 425px;
+    top: 3475px;
+    position: absolute;
+    left: 405px;
+}
+
+#share{
+    color: white;
+    font-size: 90%;
+    font-weight: bold;
+    position: absolute;
+    left: 540px;
+    top:3710px;
+}
+
+#fb{
+    position: absolute;
+    left: 620px;
+    top:3710px;
+}
+
+#tweet{
+    position: absolute;
+    left: 680px;
+    top:3710px;
 }
