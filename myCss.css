@@ -84,17 +84,21 @@ input[type=text]{
 input[type=button], input[type=button]:hover {
 	position:relative; 
 	left:-4px;
-	background: #e4f1f9; /* Old browsers */
-	background: -moz-linear-gradient(top, lightblue 0%, #d5e7f3 100%); /* FF3.6+ */
+	background: #e4f1f9;
+	background: -moz-linear-gradient(top, lightskyblue 0%, #d5e7f3 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e4f1f9), color-stop(100%,#d5e7f3)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top, lightblue 0%,#d5e7f3 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top, lightblue 0%,#d5e7f3 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top, lightblue 0%,#d5e7f3 100%); /* IE10+ */
+	background: -webkit-linear-gradient(top, lightskyblue 0%,#d5e7f3 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, lightskyblue 0%,#d5e7f3 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, lightskyblue 0%,#d5e7f3 100%); /* IE10+ */
 	background: linear-gradient(top, lightblue 0%,#d5e7f3 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4f1f9', endColorstr='#d5e7f3',GradientType=0 ); /* IE6-9 */
 	color:white;
 	cursor: pointer;
         height: 43px;
+            border-radius: 5px; 
+-moz-border-radius: 5px; 
+-webkit-border-radius: 5px; 
+border: 2px solid lightblue;
 }
 
 
@@ -169,4 +173,37 @@ input[type=button], input[type=button]:hover {
     height: 65px;
     border-bottom: 5px solid #aaa;
     border-bottom-color: lightskyblue;
+}
+
+#sec2{
+    top: 900px;
+    left:150px;
+    position: absolute;
+    font-size: 160%;
+}
+
+#sec2p2{
+    top: 960px;
+    left: 150px;
+    position: absolute;
+    font-size: 90%;
+}
+#line{
+    top:1100px;
+    left:150px;
+    position: absolute;
+    background-color: lightskyblue;
+    height: 50px;
+    width: 150px;
+    border-radius: 5px; 
+-moz-border-radius: 5px; 
+-webkit-border-radius: 5px; 
+border: 2px solid lightskyblue;
+color: white;
+}
+
+#laptop{
+    position: absolute;
+    top:800px;
+    left: 625px;
 }
