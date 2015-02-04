@@ -1,0 +1,38 @@
+#div1 {
+    width: 1280px;
+    height: 650px;
+    background-color: grey;
+}
+#div2 {
+    width: 1280px;
+    height: 735px;
+    background-color: white;
+}
+#div3 {
+    width: 1280px;
+    height: 700px;
+    background-color: lightblue;
+}
+#div4 {
+    width: 1280px;
+    height: 590px;
+    background-color: whitesmoke;
+}
+#div5 {
+    width: 1280px;
+    height: 598px;
+    background-color: white;
+}
+#div6 {
+    width: 1280px;
+    height: 539px;
+    background-color: navy;
+}
+#tabs {
+    width: 1280px;
+    height: 70px;
+    background-color: black;
+    opacity: 0.2;
+    position: absolute;
+    top: 590px;
+}
